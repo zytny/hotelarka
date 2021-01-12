@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 40;
+    box-sizing: border-box;
+}
+body {
+	color: white;
+	background-color: #696969;
+	font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#panel {
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    background: #fff;
+    border: 1px solid silver;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    -webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    width: 260px;
+    padding: 10px 20px;
+    color: #696969;
+    font-size: 16px;
+    text-shadow: 0 0 1px silver;
+}
+#username, #password {
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border: 1px solid silver;
+    outline: 5px solid #ebebeb;
+    font-size: 22px;
+}
+#username:focus, #password:focus {
+    outline: 5px solid #e5f2f8;
+}
+#lower {
+    background: #ecf2f5;
+    width: 360px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+input[type="submit"], input[type="reset"]{
+    width: 110px;
+    padding: 5px 13px;
+    border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #98c9dc;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus{
+    background: #6cd48f;
+}
+h2 {
+	margin: 17px;
+    text-align: center;
+}
+#dodawanie{
+	float: left;
+	padding: 10px;
+	border: 1px solid silver;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+	background-color: #4e73df;
+	width: 30%;
+}
+#nazwa{
+	width: 300px;
+	margin: 5px;
+}
+.numeryczne{
+	width: 50px;
+}
+#num_dod{
+	line-height: 30px;
+}
+#chck_dod{
+	line-height: 30px;
+}
+#zdjecia{
+	float: right;
+	padding: 10px;
+	border: 1px solid silver;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+	background-color: #4e73df;
+	width: 69%;
+	height: 100%;
+	text-align:center;
+}
+.zdj{
+	border: 1px solid silver;
+	-webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+	margin: 5px;
+}
+#header {
+	float: left;
+	width: 87%;
+    height: 75px;
+    padding: 15px;
+    background-color: #454545;
+    letter-spacing: -1px;
+	box-shadow: 5px 10px 10px #454545; 
+
+}
+#show_clock {
+    float: left;
+    width: 10%;
+}
+#user {
+    float: left;
+    width: 90%;
+    text-align: right;
+    font-size: 30px;
+}
+#menu {
+	color: white;
+	background-color: #4e73df;
+    float: left;
+    width: 13%;
+	height: 925px;
+	text-align: center;
+    letter-spacing: -1px;
+    line-height: 40px;
+}
+#menu hr{
+	border-color: #349ded;
+}
+ul{
+	padding-left: 15%;
+	text-align: left;
+	display: flex;
+    flex-direction: column;
+}
+li{
+	padding: 10px;
+	
+}
+a{
+	color: #bdc5de;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+#main {
+	margin-top: 20px;
+    float: left;
+    width: 87%;
+    height: 800px;
+    padding: 15px;
+    background-color: #696969;
+    letter-spacing: -1px;
+}
+#footer {
+	float: left;
+	width: 87%;
+    padding: 15px;
+    background-color: #696969;
+    letter-spacing: -1px;
+}
+#lower {
+    background: #ecf2f5;
+    width: 360px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+#wysw{
+	float: left;
+	margin: 15px;
+	height: 480px;
+	width: 300px;
+	border-style: solid;
+}
+.btn-ed{
+    border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #98c9dc;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	width: 50%;
+}
+.btn-rez{
+	border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #98c9dc;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.rezerw{
+	list-style-type: none;
+	border-style: solid;
+	border-width: 1px;
+}
