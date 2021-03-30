@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 		<meta name="keywords" content="rezerwacja, hotel, wakacje, booking">
-		<title>Recepcja</title>
-		<link rel="stylesheet" href="styl.css">
+		<title>Wynajem pokoi</title>
+		<link rel="stylesheet" href="stylg.css">
 	</head>
 	<body>
 		<div id="header_g">
@@ -49,18 +49,14 @@
 				$pod = 2 * $w[4];
 				$miejsca = $poi + $pod;
 				
-				echo "<div class='wysw_g' id='".$w[11]."'> <img src=".$w[10]." width='100%'> <br> <h3>".$w[1]." </h3> <h4>Pokój nr. ".$w[0]." </h4> Ilość miejsc: ".$miejsca." <br> Cena za dobę: ".$w[12]." <br> 
+				echo "<div class='wysw_g' id='".$w[11]."'> <img src=".$w[10]." width='100%'> <br><div class='wysw_t'> <h3>".$w[1]." </h3> <h4>Pokój nr. ".$w[0]." </h4> Ilość miejsc: ".$miejsca." <br> Cena za dobę: ".$w[12]." <br> 
 				<form action='details.php' method='POST' target='_blank'><input type='hidden' name='identyfikator' value='".$w[11]."'><input type='submit' class='btn-ed' value='SZCZEGÓŁY'></form>
-				<form action='rezerw.php' method='POST' target='_blank'><input type='hidden' name='identyfikator' value='".$w[11]."'><input type='submit' class='btn-ed' value='REZERWUJ'></form></div>";
+				<form action='rezerw.php' method='POST' target='_blank'><input type='hidden' name='identyfikator' value='".$w[11]."'><input type='submit' class='btn-ed' value='REZERWUJ'></form></div></div>";
 			}
 			
 			mysqli_close($pol);
 		?>
 		
-		</div>
-		
-		<div id="footer">
-			<p>Projekt Hotelarka 2020</p>
 		</div>
 	</body>
 </html>
