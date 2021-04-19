@@ -20,7 +20,7 @@ input[type="submit"], input[type="reset"]{
     border-radius: 5px;
 }
 input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus{
-    background: #6cd48f;
+    background: #b0b0b0;
 }
 h2 {
 	margin: 17px;
@@ -89,19 +89,24 @@ a:hover{
 #main {
 	margin-top: 20px;
     float: left;
-    width: 87%;
-    height: 800px;
     padding: 15px;
+	width: 100%;
     background-color: #f0f0f0;
     letter-spacing: -1px;
+	display: inline-block;
+	text-align: center;
+}
+#porownaj{
+	float: right;
 }
 .wysw_g{
 	border-radius: 5px;
 	float: left;
 	margin: 15px;
-	height: 360px;
+	height: 375px;
 	width: 300px;
 	background-color: #d3d3d3;
+	text-align: left;
 }
 .btn-ed{
     border: 1px solid #005f85;
@@ -114,6 +119,10 @@ a:hover{
 	width: 50%;
 }
 .btn-rez{
+	width: 67px;
+	height: 25px;
+	text-align: center;
+	padding: 1px;
 	border: 1px solid #005f85;
     color: black;
     text-shadow: 0 0 1px black;
